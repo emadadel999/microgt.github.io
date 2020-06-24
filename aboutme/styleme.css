@@ -23,3 +23,24 @@ header{
 body{
     background-color: rgba(48,173,192,0.15);
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+p::first-letter {
+    color: #c69c6d;
+    float: left;
+    font-size: 5em;
+    margin: 0 .2em 0 0;
+}
+dl{
+    color: olive;
+    font-family: Georgia;
+}
+
+ol.movies-list{
+    display: flex;
+    flex-direction: column-reverse;
+}
