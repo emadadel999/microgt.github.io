@@ -44,4 +44,14 @@ footer{
 .bottom{
     text-align: right;
 }
-
+body{
+    background-image: url("silverware.jpg");
+    background-attachment: fixed;
+}
+ul{
+    list-style-image: url("pie_bullet.png");
+}
+h1, h2{
+    letter-spacing: 0.25mm;
+    display: inline;
+}
