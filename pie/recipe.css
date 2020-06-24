@@ -20,6 +20,19 @@ body{
 a{
     color: #A4A400;
 }
+.tablespoon{
+    text-decoration: underline;
+}
+.teaspoon{
+    text-decoration: underline;
+}
+.tablespoon:hover {
+    color: red;
+}
+.cake{
+    text-decoration: line-through;
+}
 footer{
     text-align: right;
 }
+
