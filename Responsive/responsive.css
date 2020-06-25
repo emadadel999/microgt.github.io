@@ -1,0 +1,75 @@
+.header{
+    grid-area: h;
+    background-color: #add8e6;
+    text-align: center;
+    padding: 30px;
+    font-size: 24pt;
+    font-family: Verdana;
+    font-weight: bold;
+}
+.menubar{
+    grid-area: mbar;
+    display: flex;
+    background-color: #2f4f4f;
+    color: white;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+.menubar > div{
+    padding: 15px;
+    border-right: 2px;
+    border-right-color: black;
+    border-right-style: solid;
+}
+.column1{
+    grid-area: col1;
+    background-color: #a9a9a9;
+    font-size: 16pt;
+    font-family: sans-serif;
+    padding-bottom: 256px;
+ }
+.column2{
+    grid-area: col2;
+    background-color: #bbbbbb;
+    font-size: 16pt;
+    font-family: sans-serif;
+    padding-bottom: 256px;
+}
+.column3{
+    grid-area: col3;
+    background-color: #cccccc;
+    font-size: 16pt;
+    font-family: sans-serif;
+    padding-bottom: 256px;
+
+}
+.footer{
+    grid-area: f;
+    background-color: #2f4f4f;
+    color: white;
+    font-size: 14pt;
+    font-family: sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+
+.main{
+    display: grid;
+    grid-template-areas:
+    "h    h    h    h    h    h"
+    "mbar mbar mbar mbar mbar mbar"
+    "col1 col1 col1 col3 col3 col3"
+    "col2 col2 col2 col2 col2 col2"
+    "f    f    f    f    f    f";
+}
+@media screen and (min-width: 600px){
+    .main{
+        display: grid;
+        grid-template-areas:
+    "h    h    h    h    h    h"
+    "mbar mbar mbar mbar mbar mbar"
+    "col1 col1 col2 col2 col3 col3"
+    "f    f    f    f    f    f";
+    }
+}
+
