@@ -669,19 +669,19 @@ function changeAnimation() {
 
     switch (anim.selectedIndex){
         case 0:
-            textarea.innerText = BLANK;
+            textarea.value = BLANK;
             break;
         case 1:
-            textarea.innerText = EXERCISE;
+            textarea.value = EXERCISE;
             break;
         case 2:
-            textarea.innerText = JUGGLER;
+            textarea.value = JUGGLER;
             break;
         case 3:
-            textarea.innerText = BIKE;
+            textarea.value = BIKE;
             break;
         case 4:
-            textarea.innerText = DIVE;
+            textarea.value = DIVE;
             break;
     }
 }
@@ -693,7 +693,7 @@ function startAnimation() {
         document.getElementById("animation").disabled = true;
         let tarea = document.getElementById("text-area");
 
-        currentAnim = tarea.textContent.split("=====");
+        currentAnim = tarea.value.split("=====");
         currentFrame = 0;
         clearInterval(timer);
         timer = setInterval(display, animationSpeed);
@@ -702,7 +702,7 @@ function startAnimation() {
 
 function display() {
     let tarea = document.getElementById("text-area");
-    tarea.textContent = currentAnim[currentFrame];
+    tarea.value = currentAnim[currentFrame];
     currentFrame++;
     if(currentFrame == currentAnim.length){
         currentFrame = 0;

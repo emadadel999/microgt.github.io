@@ -72,3 +72,4 @@ function malkovitch() {
     }
     document.getElementById("ta").textContent = result;
 }
+
