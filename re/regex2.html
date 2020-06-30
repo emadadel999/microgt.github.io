@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regular Expressions Part II</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script type="text/javascript" src="regex2.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-info">
+    <a class="navbar-brand" style="color: white;font-size: xx-large">MUM Golden Dome Market:::SRM System</a>
+
+    <a href="#" class="" style="color: white;font-size: larger">Products</a>
+    <a href="#" class="" style="color: white;font-size: larger">Suppliers</a>
+    <form class="form-inline">
+        <span class="mr-4" style="color: white;font-size: larger">Hello!</span>
+        <button class="btn btn-light" type="button">Sign Out</button>
+    </form>
+</nav>
+
+<div class="container mt-4">
+    <div class="row">
+        <h2>New Product Form</h2>
+    </div>
+    <div class="clearfix"></div>
+    <br>
+    <form>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="txtProductNumber">Product Number</label>
+                    <input type="text" class="form-control" id="txtProductNumber">
+                </div>
+                <div class="form-group">
+                    <label for="txtName">Name</label>
+                    <input type="text" class="form-control" id="txtName">
+                </div>
+                <div class="form-group">
+                    <label for="txtPrice">Unit Price</label>
+                    <input type="text" class="form-control" id="txtPrice" value="0.0">
+                </div>
+            </div>
+            <div class="col-md-6">
+
+                <div class="form-group">
+                    <label for="txtQuantity">Quantity in stock</label>
+                    <input type="text" class="form-control" id="txtQuantity" value="0">
+                </div>
+
+                <div class="form-group">
+                    <label for="ddlSupplier">Supplier:</label>
+                    <select class="form-control" id="ddlSupplier">
+                        <option>Select a Supplier</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="txtDate">Date supplied</label>
+                    <input type="text" class="form-control" id="txtDate" placeholder="yyyy-mm-dd">
+                    <small>Enter a valid date.</small>
+                </div>
+
+
+            </div>
+        </div>
+
+    </form>
+    <div style="float: right">
+        <button type="button" class="btn btn-outline-primary">Reset</button>
+        <button type="button" class="btn btn-outline-warning">Cancel</button>
+        <button id="addbtn" type="button" class="btn btn-outline-info">Add Product</button>
+    </div>
+
+
+</div>
+
+
+<script type="text/javascript" src="regex2.js"></script>
+</body>
+</html>
