@@ -47,5 +47,4 @@ describe("filterLongWords", function() {
         assert.equal(filterLongWords(["Mohammed", "Gameal", "Elabed", "Elmatary"], 6), ["Mohammed", "Elmatary"]);
         assert.equal(filterLongWords(["Maharishi", "International", "University"], 9), ["International", "University"]);
     });
-
 });
