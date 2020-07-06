@@ -1,6 +1,3 @@
-window.onload = start;
-
-function start(){
     let myAcc = new Account(5000);
 
     describe("myAcc.getNumber", function() {
@@ -105,5 +102,4 @@ function start(){
             assert.deepEqual(myBank.endOfMonth(), "Neither is this....");
         });
     });
-}
 
