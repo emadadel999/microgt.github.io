@@ -92,7 +92,7 @@ function start(){
         });
     });
 
-    describe("myBank.accountReport", function() {
+    /*describe("myBank.accountReport", function() {
 
         it("Prints a report with all accounts", function() {
             assert.deepEqual(myBank.accountReport(), "This is not working properly....");
@@ -104,6 +104,6 @@ function start(){
         it("Prints a report with the end of month states of all accounts", function() {
             assert.deepEqual(myBank.endOfMonth(), "Neither is this....");
         });
-    });
+    });*/
 }
 
