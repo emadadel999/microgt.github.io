@@ -1,0 +1,20 @@
+.container{
+    display: inline;
+}
+#cirCont{
+    margin-left: 25%;
+    margin-top: -10%;
+}
+
+#circle{
+    position: absolute;
+}
+.ctrls{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90%;
+    margin-top: 10%;
+}
+.ctrls > label{
+    padding-top: 50px;
+}
