@@ -1,0 +1,48 @@
+.label{
+    font-weight: bold;
+}
+.label > p{
+    font-weight: normal;
+    text-align: center;
+}
+#devider{
+    color: cyan;
+    text-align: center;
+}
+#info{
+    grid-area: i;
+    padding: 15px;
+}
+#posts{
+    grid-area: p;
+    padding: 15px;
+}
+#comments{
+    grid-area: c;
+    padding: 15px;
+}
+.selected{
+    background-color: cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container{
+    display: grid;
+    grid-template-areas:
+    "i i p p c c"
+    "i i p p c c"
+    "i i p p c c"
+    "i i p p c c"
+    ;
+}
